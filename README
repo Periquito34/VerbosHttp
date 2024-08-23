@@ -1,0 +1,18 @@
+Verbos
+GET: Se utiliza para solicitar datos desde un servidor.
+POST: Se emplea para enviar datos al servidor.
+DELETE: Sirve para eliminar un elemento específico.
+PATCH: Se usa para actualizar parcialmente los datos de un recurso.
+PUT: Se emplea para actualizar la información completa de un recurso.
+HEAD: Similar a GET, pero solo solicita los encabezados de la respuesta sin el cuerpo del recurso.
+
+Anotaciones
+@RestController: Define una clase como un controlador en una aplicación MVC que maneja solicitudes y proporciona respuestas en formatos JSON o XML.
+
+@RequestMapping("item"): Mapea solicitudes HTTP a métodos específicos dentro del controlador.
+
+@Autowired: Automatiza la inyección de dependencias en Spring.
+
+@Override: Garantiza que el método que estás implementando sobrescribe correctamente un método de una clase padre o interfaz.
+
+GroceryItem: Representa un artículo de supermercado y proporciona métodos para acceder y modificar sus atributos. Incluye un constructor y otros métodos relevantes.
